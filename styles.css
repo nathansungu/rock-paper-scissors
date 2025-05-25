@@ -44,6 +44,26 @@ body {
   justify-content: flex-end;
   gap: 15rem;
 }
+@media screen and (max-width: 47.6em) {
+    .score{
+        gap: 5rem;
+    }
+    
+}
+@media screen and (max-width: 32.5em) {
+    .score{
+        gap: 2rem;
+    }
+    .header{
+        font-size: .6em;
+    }
+    .choices-area{
+        width: 60%;
+    }
+
+   
+    
+}
 .computer-score {
   display: flex;
   flex-direction: row;
