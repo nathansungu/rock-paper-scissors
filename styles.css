@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #4CAF50; /* Green */
+    --secondary-color: #f1f1f1; /* Light Gray */
+    --dotted-lines-color: black; /* Light Gray for Dotted Lines */
+    --text-color: #333; /* Dark Gray */
+    --font-family: 'Arial', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    background-color: var(--primary-color);
+}
+.main-header{
+    text-transform: capitalize;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30rem;
+}
+.score-marks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.choices-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30%;
+      
+    padding: 2rem;
+}
+.image-picked{
+    border: 3px dotted var(--dotted-lines-color);
+    width: 80%;
+    height: 90%;
+}
