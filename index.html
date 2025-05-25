@@ -5,64 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock paper scissors</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="header">
-      <div class="main-header"><h1>rock paper scissors game</h1></div>
-      <div class="score">
-        <div class="copyright">&copy; Nathan 2025</div>
-        <div class="score-marks">
-            player<p class="player-score" id="player-score"> 0</p>
-          
-            <p class="computer-score" id="computer-score">0 </p> computer
-            
-           
-        </div>
-      </div>
-    </section>
-    <section class="game">
-        <div class=" choices-area">
-            <h2>computer</h2>
-            <div class="image-picked">
-              <p id="selectedImage-computer"></p>
-            </div>
-            
-        </div>
-        <div class="show-winner"id="show-winner">
-            <p class="current-results">
-                winner
-            </p>
+    <div class="main-container">
+      <section class="header">
+        <div class="main-header"><h1>rock paper scissors game</h1></div>
+        <div class="score">
+          <div class="copyright">&copy; Nathan 2025</div>
+          <div class="score-marks">
+            player
+            <p class="player-score" id="player-score">0</p>
 
+            <p class="computer-score" id="computer-score">0</p>
+            computer
+          </div>
         </div>
-        <div class=" choices-area">
-            <h2>player</h2>
-            <div class="image-picked">
-                <p id="selectedImage-player"></p>
-            </div>
-            
+      </section>
+      <section class="game">
+        <div class="choices-area">
+          <h2>computer</h2>
+          <div class="image-picked">
+            <p id="selectedImage-computer"></p>
+          </div>
+        </div>
+        <div class="show-winner" id="show-winner">
+          <p class="current-results">winner</p>
+        </div>
+        <div class="choices-area">
+          <h2>player</h2>
+          <div class="image-picked">
+            <p id="selectedImage-player"></p>
+          </div>
         </div>
 
         <div class="pick-choice">
-            <div class="choices">
-                <button class="option" id="rock">
-                    <p>✊</p>
-                    <p>rock</p>
-                           
-                </button>
-                <button class="option" id="paper">
-                    <p>✋</p>
-                    <p>paper</p>
-                </button>
-                <button class="option" id="scissors">  
-                    <p>✌️</p>
-                    <p>scissors</p>
-                </button>
-            </div>
-            
+          <div class="choices">
+            <button class="option" id="rock">
+              <p>✊</p>
+              <p>rock</p>
+            </button>
+            <button class="option" id="paper">
+              <p>✋</p>
+              <p>paper</p>
+            </button>
+            <button class="option" id="scissors">
+              <p>✌️</p>
+              <p>scissors</p>
+            </button>
+          </div>
         </div>
-
-    </section>
+      </section>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
