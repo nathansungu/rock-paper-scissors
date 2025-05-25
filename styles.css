@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 30rem;
+  gap: 15rem;
 }
 .computer-score {
   display: flex;
