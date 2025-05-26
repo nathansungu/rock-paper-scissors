@@ -9,7 +9,6 @@
   --dotted-lines-color: black;
   --text-color: #333;
   --winner-section-color: orange;
-
   --image-button-background-color: gray;
   --header-font-size: 1em;
 }
@@ -94,9 +93,12 @@ body {
   width: 30%;
   padding: 2rem;
 }
+.choices-area h1{
+  padding-bottom: .5rem;
+}
 .image-picked {
   border: 3px dotted var(--dotted-lines-color);
-  width: 80%;
+  width: 10rem;
   height: 100%;
 }
 .image-picked p {
@@ -112,6 +114,12 @@ body {
   align-items: center;
   font-size: 2em;
   font-weight: 700;
+}
+@media screen and (max-width: 25rem) {
+  .show-winner{
+    font-size: 1.5em;
+  }
+  
 }
 .pick-choice {
   display: flex;
